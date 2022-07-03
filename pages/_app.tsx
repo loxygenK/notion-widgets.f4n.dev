@@ -14,11 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         {/* TODO: Replace this path specification to .ico files */}
         <link rel="icon" href="/logo.svg" />
       </Head>
-
-      <Header />
-      <main className="p-12">
-        <Component {...pageProps} />
-      </main>
+      <Component {...pageProps} />
     </>
   );
 }
